@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Caribe Roleplay</title>
+  <link rel="icon" href="src/logo.png" type="image/png" sizes="16x16" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="src/media.css" />
+  <link rel="stylesheet" href="src/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="src/fontawesome-free-6.1.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="src/reset/reset.css" />
+
+</head>
+
+<body>
+  <div id="fixed">
+    <div class="navbar desktop-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <div id="menuSection" class="menu-sec">
+        <ul class="nav-menu">
+          <li><a class="active" href="#"><i style="margin-right: 0.6vh;" class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="veiculos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-sack-dollar"></i>Loja</a></li>
+          <li><a href="termos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-file"></i>Termos</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fa-brands fa-discord"></i>
+        <a style="text-decoration:none;" href="login/login.php" class="colorwhite1">Sign-in</a>
+      </div>
+    </div>
+    <div onclick="closeMobMenuToggle()" id="mobMenuCont" class="mob-menu-container">
+      <img src="src/close.png" alt="close-icon" />
+    </div>
+    <div id="mobMenuWrap" class="mob-menu-wrap">
+      <div class="menu-content">
+        <div class="menu-items">
+          <ul class="nav-menu">
+            <li><a class="active" href="index.html"><i style="margin-right: 0.6vh;"
+                  class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li><a href="veiculos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-sack-dollar"></i>Loja</a></li>
+            <li><a href="termos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-file"></i>Termos</a></li>
+          </ul>
+        </div>
+        <div class="social-items">
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <a style="text-decoration:none;" href="login/login.php" class="colorwhite1">Sign-in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <button onclick="mobMenuToggle()" class="menu"><span><i style="font-size:34px;"
+            class="colorwhite3 fa-solid fa-bars"></i></span>
+      </button>
+    </div>
+  </div>
+
+  <main class="w3-animate-zoom">
+    <div class="container-center">
+      <div class="content-back">
+        <h2 style="padding-top: 10vh;">Faça nossa Whitelist!!!!</h2>
+        <h3>Não se esqueça de ler todas as Regras!!!</h3>
+        <a class="button-back" href="#"><i style="margin-right: 1vh;"
+            class="fa-solid fa-file-circle-exclamation"></i>Whitelist</a>
+        <a style="margin-left: 0.5vh;" class="button-back" href="#"><i style="margin-right: 1vh;"
+            class="fa-brands fa-discord"></i>Discord</a>
+        <a style="margin-left: 0.5vh;" class="button-back" href="#"><i style="margin-right: 1vh;"
+            class="fa-solid fa-file"></i>Regras</a>
+      </div>
+      <div class="container-flexk" ;>
+        <div class="separate-div">
+          <div class="container-lojaz">
+            <h4>LOJA ONLINE</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci neque, fuga voluptatum corrupti
+              iure
+              facilis impedit perspiciatis quo inventore sequi similique sint dolore architecto dignissimos quaerat. Ea,
+              veritatis corporis!</p>
+            <a style="margin-left: 0.5vh;" class="button-containers" href="#"><i style="margin: 1vh;"
+                class="fa-solid fa-money-check-dollar"></i>Loja Online</a>
+            <a style="margin-left: 0.5vh;" class="button-containers" href="#"><i style="margin: 1vh;"
+                class="fa-solid fa-money-check-dollar"></i>Ofertas</a>
+          </div>
+        </div>
+        <div class="separate-div1">
+          <div class="container-lojaz">
+            <h4>REDES SOCIAIS</h4>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem adipisci neque, fuga voluptatum corrupti
+              iure
+              facilis impedit perspiciatis quo inventore sequi similique sint dolore architecto dignissimos quaerat. Ea,
+              veritatis corporis!</p>
+            <a style="margin-left: 0.5vh; background-color: #d3d026" class="button-containers" href="#"><i
+                style="margin: 1vh;" class="fa-brands fa-instagram"></i>Instagram</a>
+            <a style="margin-left: 0.5vh; background-color: #ff0000" class="button-containers" href="#"><i
+                style="margin: 1vh;" class="fa-brands fa-youtube"></i>YouTube</a>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-container">
+        <h5>Parceiros oficias do Servidor!!!</h5>
+        <p>Esses listados ao lado são nossos parceiros que fazem toda a nossa loja acontecer!
+          Hospedando,<br>Investindo ou
+          Apoiando todos os nossos projetos! Dê uma passadinha neles ;)</p>
+        <div class="img-container">
+          <img src="gfx/partner.png">
+          <img src="gfx/partner.png">
+          <img src="gfx/partner.png">
+          <img src="gfx/partner.png">
+          <img src="gfx/partner.png">
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-footer">
+      <h6>© 2022 - Caribe Roleplay - All Rights Reserved.</h6>
+    </div>
+  </footer>
+
+
+
+
+  <script type="text/javascript" src="src/script.js"></script>
+</body>
+
+</html>

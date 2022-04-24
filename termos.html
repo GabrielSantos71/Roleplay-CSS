@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Home - Caribe Roleplay</title>
+  <link rel="icon" href="src/logo.png" type="image/png" sizes="16x16" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" />
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css" />
+  <link rel="stylesheet" href="src/style.css" />
+  <link rel="stylesheet" href="src/media.css" />
+  <link rel="stylesheet" href="src/fontawesome-free-6.1.1-web/css/all.css">
+  <link rel="stylesheet" href="src/fontawesome-free-6.1.1-web/css/all.min.css" />
+  <link rel="stylesheet" href="src/reset/reset.css" />
+
+</head>
+
+<body>
+  <div id="fixed">
+    <div class="navbar desktop-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <div id="menuSection" class="menu-sec">
+        <ul class="nav-menu">
+          <li><a href="index.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-house"></i>Home</a></li>
+          <li><a href="veiculos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-sack-dollar"></i>Loja</a></li>
+          <li><a class="active" href="#"><i style="margin-right: 0.6vh;" class="fa-solid fa-file"></i>Termos</a></li>
+        </ul>
+      </div>
+      <div class="social-icons">
+        <i class="fab fa-facebook"></i>
+        <i class="fab fa-instagram"></i>
+        <i class="fab fa-github"></i>
+        <i class="fa-brands fa-discord"></i>
+        <a style="text-decoration:none;" href="login/login.php" class="colorwhite1">Sign-in</a>
+      </div>
+    </div>
+    <div onclick="closeMobMenuToggle()" id="mobMenuCont" class="mob-menu-container">
+      <img src="src/close.png" alt="close-icon" />
+    </div>
+    <div id="mobMenuWrap" class="mob-menu-wrap">
+      <div class="menu-content">
+        <div class="menu-items">
+          <ul class="nav-menu">
+            <li><a href="index.html"><i style="margin-right: 0.6vh;"
+                  class="fa-solid fa-house"></i>Home</a>
+            </li>
+            <li><a href="veiculos.html"><i style="margin-right: 0.6vh;" class="fa-solid fa-sack-dollar"></i>Loja</a></li>
+            <li><a class="active" href="#"><i style="margin-right: 0.6vh;" class="fa-solid fa-file"></i>Termos</a></li>
+          </ul>
+        </div>
+        <div class="social-items">
+          <div class="social-icons">
+            <i class="fab fa-facebook"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fab fa-github"></i>
+            <a style="text-decoration:none;" href="login/login.php" class="colorwhite1">Sign-in</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="mobile-menu">
+      <div class="logo">
+        <a href="#"><img src="src/logo.png" alt="my-logo" /></a>
+      </div>
+      <button onclick="mobMenuToggle()" class="menu"><span><i style="font-size:34px;"
+            class="colorwhite3 fa-solid fa-bars"></i></span>
+      </button>
+    </div>
+  </div>
+
+  <main class="w3-animate-zoom">
+    <div class="container-center">
+        <h2 style="color: #0E90FD;" class="termo-t">Termos e Condições de Compra e Venda de Produtos</h2>
+        <div class="container-1">
+            <ul>
+                <li>Considerando que a Empresa Caribe Roleplay realiza venda de produtos e serviços pela internet;</li>
+                <li>Considerando o interesse do Cliente na compra dos produtos oferecidos pela Empresa("Produtos") em seus canais de venda;</li>
+                <li>O presente contrato tem por finalidade estabelecer as condições gerais de uso e compra de produtos e serviços do cliente do site cariberoleplay.com .</li>
+            </ul>
+        </div>
+        <div class="container-2">
+            <ul>
+                <li><i class="fa-solid fa-arrow-right"></i>1. Confidencialidade: é de responsabilidade da Empresa a preservação da confidencialidade de todos os dados e informações fornecidos pelo Cliente no processo de compra. A segurança do site é auditada diariamente e garantida contra a ação de hackers, através do selo "Site Blindado".</li>
+                <li><i class="fa-solid fa-arrow-right"></i>2. Serviço de Atendimento ao Cliente (Em nosso Discord): O cliente dispõe desse serviço para sanar suas dúvidas, solucionar eventuais solicitações ou reclamações a respeito do seu pedido ou de qualquer conteúdo disponibilizado no site. O Ticket poderá ser acionado por meio da plataforma do Discord ou de Formulário do site ou envio de e-mail para cariberoleplay.cariberp.com, todos disponibilizados em nossa aba "Contatate-nos".</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3. Política de entrega: o prazo para entrega dos Produtos é informado durante o procedimento de compra, contabilizado em dias úteis. As entregas dos Produtos são realizadas de segunda a sexta-feira, das 8h às 18h. Excepcionalmente, algumas entregas de Produtos podem ocorrer aos sábados, domingos e feriados.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3.1 - A conferência da adequação das dimensões do produto é de responsabilidade do Cliente.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3.2 - Serão realizadas até três tentativas de entrega caso voçe não esteja Online no momento é obrigatorio abrir um ticket.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3.3 - Após a finalização do pedido não é possível alterar a forma de pagamento, solicitar adiantamento ou, ainda, prioridade da entrega.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3.4 - O prazo de entrega informado durante o procedimento de compra do Produto leva em consideração a demanda e o processo de emissão da nota fiscal do produto. A cada atualização no status de entrega do pedido, o sistema da Empresa envia, automaticamente, e-mails de alerta para o Cliente.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>3.5 - Não cobramos frete ou taxas.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>4. Direito de arrependimento: ao Cliente será facultado o exercício do direito de arrependimento da compra, com a finalidade de devolução do Produto, hipótese na qual deverão ser observadas as seguintes condições: O prazo de desistência da compra do produto é de até 7 (sete) dias corridos, a contar da data do recebimento;</li>
+                <li><i class="fa-solid fa-arrow-right"></i>4.1 - Em compras pagas com boleto bancário ou débito em conta, a restituição será efetuada por meio de depósito bancário, em até 10 (dez) dias úteis, somente na conta corrente do(a) comprador(a), que deve ser individual. É necessário que o CPF do titular da conta corrente seja o mesmo que consta no pedido (CPF do Cliente). Caso o(a) comprador(a) não tenha uma conta corrente que atenda às condições citadas, será enviada, no mesmo prazo, uma Ordem de Pagamento em nome do titular da compra. Ela poderá ser resgatada em qualquer agência do Banco do Brasil, mediante apresentação de documento de identidade e CPF.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>5. Política de Trocas e Devoluções: Não efetuamos a troca de produtos adquiridos em nosso Site.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>6. Formas de pagamento aceitas:</li>
+                <li><i class="fa-solid fa-arrow-right"></i>6.1 - Pagamento à vista:
+                    boleto bancário;
+                    débito em conta;
+                    cartão de crédito;
+                    pix;
+                </li>
+                <li><i class="fa-solid fa-arrow-right"></i>7. Característica dos produtos e risco à saúde: Antes de comprar um produto, o Cliente deve ler atentamente em sua página a descrição do uso e manuseio. Em caso de dúvida, deverá contatar o Setor de Atendimento.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>8. Caso fortuito e força maior: Nenhuma das partes será responsável perante a outra por qualquer falha ou atraso no cumprimento das obrigações constantes do presente contrato causados por casos fortuitos ou força maior.</li>
+                <li><i class="fa-solid fa-arrow-right"></i>9. Foro: Fica eleito o foro de domicílio do Cliente para dirimir eventuais controvérsias a respeito deste contrato.</li>
+            </ul>
+        </div>
+
+    </div>
+  </main>
+
+  <footer>
+    <div class="container-footer">
+      <h6>© 2022 - Caribe Roleplay - All Rights Reserved.</h6>
+    </div>
+  </footer>
+
+
+
+
+  <script type="text/javascript" src="src/script.js"></script>
+</body>
+
+</html>
