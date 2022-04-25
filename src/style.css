@@ -215,7 +215,7 @@ h1 {
 }
 
 .button-back:hover {
-  background-color: #0E90FD;
+  background-color: #0E90FD89;
   color: #ffffff;
 }
 
@@ -249,6 +249,35 @@ h1 {
   color: #ffffff;
   padding:1.3vh;
 
+}
+
+.button-containers:hover {
+  background-color: #0E90FD89;
+}
+
+.button-containerinsta {
+  text-decoration: none;
+  border-radius: 1vh;
+  background: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(255,81,81,1) 51%, rgba(252,176,69,1) 80%);
+  color: #ffffff;
+  padding:1.3vh;
+
+}
+
+.button-containeryt {
+  text-decoration: none;
+  border-radius: 1vh;
+  background-color: #fd0e0e;
+  color: #ffffff;
+  padding:1.3vh;
+}
+
+.button-containeryt:hover {
+  background-color: #ff000086;
+}
+
+.button-containerinsta:hover {
+  background: linear-gradient(30deg, rgba(131,58,180,1) 0%, rgba(255,81,81,1) 51%, rgba(252,176,69,1) 80%);
 }
 
 .container-lojaz a {
@@ -333,12 +362,17 @@ h1 {
 .container-footer {
   text-align: center;
   background-color: #464646;
-  padding: 4vh;
+  padding: 2vh;
+  border-bottom: #3f3f3f;
 }
 
 .container-footer h6 {
   color: #fff;
-  font-size: 16px;
+  font-size: 14px;
+}
+
+.logo-footer {
+  width: 200px;
 }
 
 /**/
@@ -374,4 +408,14 @@ h1 {
 .container-2 ul li i {
   color: #0E90FD;
   margin-right: 1vh;
+}
+
+.btn-footer {
+  color: #868686;
+  text-decoration: none;
+}
+
+.btn-footer:hover {
+  color: #0E90FD;
+  text-decoration: transparent;
 }
