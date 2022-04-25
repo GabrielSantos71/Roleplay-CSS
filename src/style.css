@@ -345,6 +345,12 @@ h1 {
 
 /*termos*/
 
+#container-termos {
+  background-color: #464646;
+  border-radius: 2vh;
+  padding: 3vh;
+}
+
 .termo-t {
   color: fff;
   text-align: center;
